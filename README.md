@@ -1,2 +1,2 @@
 static web page: gaming store
-https://aymenboukadida.github.io/schoolwebproject/
+https://aymenboukadida.github.io/uniwebproject/
