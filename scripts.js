@@ -1,7 +1,7 @@
 let menu = document.querySelector(".menu-icon");
 let navbar = document.querySelector(".menu");
-let bell = document.querySelector("#bell");
-let tele = document.querySelector("#tele");
+let bell = document.getElementById("bell");
+let tele = document.getElementById("tele");
 bell.onclick = () => {
   alert("no notifications Yet ");
 };
@@ -13,7 +13,7 @@ tele.onclick = () => {
   email = prompt("Donner votre email");
   if (email && gameName && price)
     alert(
-      `Your Game  ${gameName} a été téléchargée avec succès ! Voir ton E-mail !`
+      `Ton Jeux  ${gameName} a été téléchargée avec succès ! Voir ton E-mail !`
     );
   else {
     alert(`téléchargement annulé pas de gameName ou email`);

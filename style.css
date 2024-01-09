@@ -54,6 +54,12 @@ header {
   position: relative;
   top: 150px;
 }
+.audio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 #contact {
   margin-top: 100px;
   padding: 0 10%;
