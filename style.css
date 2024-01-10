@@ -32,7 +32,6 @@ body {
   color: var(--text-color);
   background: var(--dark-color);
   scroll-behavior: smooth;
-  
 }
 
 .container {
@@ -401,4 +400,7 @@ footer p span {
 .surbrillance {
   background-color: yellow;
   font-weight: bold;
+}
+::-webkit-scrollbar {
+  display: none;
 }
