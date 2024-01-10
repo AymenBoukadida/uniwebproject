@@ -32,6 +32,7 @@ body {
   color: var(--text-color);
   background: var(--dark-color);
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .container {
@@ -54,11 +55,10 @@ header {
   position: relative;
   top: 150px;
 }
-.audio{
+.audio {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 #contact {
   margin-top: 100px;
